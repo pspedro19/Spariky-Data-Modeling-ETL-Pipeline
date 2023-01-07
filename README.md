@@ -45,7 +45,7 @@ log_data/2018/11/2018-11-13-events.json
 
 # Data Model
 
-![Modelo](https://cdn.pixabay.com/photo/2017/03/18/01/07/willow-catkin-2152984_960_720.jpg](https://github.com/pspedro19/Spariky-Data-Modeling-ETL-Pipeline/blob/main/Images/Model.png)
+![Modelo]([https://cdn.pixabay.com/photo/2017/03/18/01/07/willow-catkin-2152984_960_720.jpg](https://github.com/pspedro19/Spariky-Data-Modeling-ETL-Pipeline/blob/main/Images/Model.png](https://raw.githubusercontent.com/pspedro19/Spariky-Data-Modeling-ETL-Pipeline/main/Images/Model.png))
 
 
 
