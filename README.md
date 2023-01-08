@@ -73,7 +73,7 @@ Run create_tables.py to reset the tables.
 Run the etl.ipynb to develop the etl process for each table.
 Run test.ipynb notebook to check if it works
 
-##To Build the ETL Pipeline
+## To Build the ETL Pipeline
 
 Run creatt_tables.py to reset the tables in the database
 Run etl.py to process the whole files.
