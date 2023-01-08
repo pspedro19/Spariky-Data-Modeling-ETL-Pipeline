@@ -60,22 +60,17 @@ The model down bellow follows the following structure as the data model has a Fa
 
 ## To run this project
 
-First you will need to download or clone the project repo.
+To set up the project, you need to download or clone the repository.
 
 ## To Create tables
 
-Run the create_tables.py. This will create your tables and databases
-Test with test.ipynb to ensure that all the database and the table have been created.
+run "create_tables.py" and then test with "test.ipynb" to confirm that the tables and databases have been created.
 
 ## To Build the ETL process
 
-Run create_tables.py to reset the tables.
-Run the etl.ipynb to develop the etl process for each table.
-Run test.ipynb notebook to check if it works
+ run "create_tables.py" to reset the tables, then "etl.ipynb" to create the ETL process for each table, and finally "test.ipynb" to test it.
 
 ## To Build the ETL Pipeline
 
-Run creatt_tables.py to reset the tables in the database
-Run etl.py to process the whole files.
-Run the test.ipynb notebook to check that your tables have been processed.
+first run "create_tables.py" to reset the tables, then run "etl.py" to process all the files, and finally "test.ipynb" to verify that the tables have been properly processed.
 
