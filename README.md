@@ -45,24 +45,37 @@ log_data/2018/11/2018-11-13-events.json
 
 # Data Model
 
+The model down bellow follows the following structure as the data model has a Fact Table and Four Dimensions that enhance query business questions for analytical purposes.
+
 ![Modelo](https://raw.githubusercontent.com/pspedro19/Spariky-Data-Modeling-ETL-Pipeline/main/Images/Model.png)
 
 
 
 # ETL Process
 
+"sql_queries.py" contains SQL code for creating and dropping tables, inserting data, and selecting data from a "Songs Play" table. These SQL statements are saved in variables and used in other files. "create_tables.py" has functions that connect to a Postgres database using the "psycopg2" module and create or drop the database and tables by executing the SQL code from "sql_queries.py". "etl.py" has functions that process data from local JSON files and insert it into the appropriate tables using the "os", "glob", and "pandas" modules. These three files must be run in a specific order, with the SQL code being updated first, the "create_tables.py" file being run next, and the "etl.py" file being run last to ensure the required database and tables are created before inserting data.
 
 
-Extracting data from the sources
+# RUN FULL Project
 
-Cleaning and transforming the data
-Loading the data into the PostgreSQL database
-Running the Code
-Include instructions for how to run the etl.py script and any dependencies that need to be installed. You may also want to include instructions for how to set up the PostgreSQL database and any necessary tables or schemas.
+## To run this project
 
-# Further Analysis
+First you will need to download or clone the project repo.
 
+## To Create tables
 
+Run the create_tables.py. This will create your tables and databases
+Test with test.ipynb to ensure that all the database and the table have been created.
 
-# Future Work
+## To Build the ETL process
+
+Run create_tables.py to reset the tables.
+Run the etl.ipynb to develop the etl process for each table.
+Run test.ipynb notebook to check if it works
+
+##To Build the ETL Pipeline
+
+Run creatt_tables.py to reset the tables in the database
+Run etl.py to process the whole files.
+Run the test.ipynb notebook to check that your tables have been processed.
 
